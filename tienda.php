@@ -24,10 +24,10 @@ $con = conectar();
             </div>
             <div class="header-opt">
                 <ul>
-                <li> <a href="./tienda.php"> <img src="https://img.icons8.com/ios-filled/30/ffffff/online-store.png" /> <b>Tienda</b> </a> </li>
+                    <li> <a href="./tienda.php"> <img src="https://img.icons8.com/ios-filled/30/ffffff/online-store.png" /> <b>Tienda</b> </a> </li>
                     <li> <a href="./acerca.html"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/guest-male.png" /> <b>Acerca de</b> </a> </li>
                     <li> <a href="./contacto.php"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/mail-account.png" /><b>Contacto</b> </a> </li>
-                    <li> <a href="./mapa.html"> <img src="https://img.icons8.com/ios-filled/30/ffffff/treasure-map.png" /><b>Mapa del sitio</b></a> </li>
+                    <li> <a href="https://oscar-cr.github.io/Cafeteria/mapa.html"> <img src="https://img.icons8.com/ios-filled/30/ffffff/treasure-map.png" /><b>Mapa del sitio</b> </a></li>
                 </ul>
             </div>
         </header>
