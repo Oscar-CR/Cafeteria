@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%; 
+    font-family: 'Kanit', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #232122;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+header .header-img{
+    width: 40%;
+}
+
+header .header-opt{
+    width: 60%;
+}
+
+header .header-opt img{
+    display: none;
+}
+header .header-img  img{
+    width:40px ;
+    height: 40px;
+    margin: 5px 0 5px 10px;
+}
+
+header .header-opt >* {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+
+header .header-opt a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0px 40px 0 0;
+}
+
+header .header-opt a:hover{
+    color: #D7AF96;
+}
+
+.header-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.separador{
+    width: 100%;
+    height: 80px;
+}
+/* ----------------Index.html----------------*/
+
+.index-body{
+    background-color: #232122;
+}
+
+.index-main{
+max-height: 1440px;
+}
+
+.index-main img{
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.index-main{
+    display: block;
+    margin: auto;
+    margin-top:150px;
+}
+
+/* ----------------Login.html----------------*/
+
+.login-main{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background-color: #191819;
+
+}
+
+.login-formulario{
+    display: block;
+    margin: auto;
+    width: 340px;
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.login-header{
+    text-align: center;
+}
+
+
+.login-formulario button,input{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+
+.login-formulario button:hover{
+    background-color: #513A2B;
+    border-color: #513A2B;
+}
+
+.login-formulario a{
+    text-decoration: none;
+    display:flex; 
+    justify-content:flex-end;
+    color: #232323;
+}
+
+.login-formulario a:hover{
+    color: #513A2B;
+}
+
+
+/* --------------Registrarse----------------*/
+
+.register-body{
+    background-color: #232122;
+}
+
+
+.register-header{
+    text-align: center;
+
+}
+
+.register-formulario{
+    display: block;
+    margin: auto;
+    width: 540px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.register-formulario button,input{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+
+.register-formulario button:hover{
+    background-color: #513A2B;
+    border-color: #513A2B;
+}
+
+
+/* ------------------Tienda-----------------*/
+
+.tienda-body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.anuncio{
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 80px;
+    background-color:#190A00;
+    border: 2px solid #190A00;
+}
+
+.anuncio h3{
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+.tienda-promo{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    margin: 10px 10% 10px 10%;
+    overflow: hidden;
+
+}
+
+.producto{
+    background-color: #fff;
+    margin: 10px 10px 10px 10px;
+    height: 600px;
+    padding:20px;
+    border: 1px solid black;
+}
+
+.img-contenedor>*{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 15px;
+     object-fit: cover;
+    overflow: hidden;
+}
+
+
+.producto input{
+    width: 38%;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.producto .btn-warning {
+    width: 100%;
+}
+
+
+/* ------------------Acerca de------------------*/
+
+.about-principal , .valores{
+    width: 60%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.about-principal h2 , .valores h2{
+   font-size: 30px;
+}
+
+.contacto-formulario{
+    display: grid;
+    grid-template-columns: 60% 40%  ;
+    margin: 0 5% 50px 5%;
+}
+
+.contacto-formulario .formulario{
+    border: 1px solid #E6E6E6;
+    padding:20px;
+    border-radius: 5px;
+    margin: 0 5px 10px 0;
+}   
+
+.contacto-formulario .formulario textarea,.btn-dark{
+    width: 100%;
+}   
+
+
+.contacto-formulario .mapa{
+    border: 1px solid #E6E6E6;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 5px;
+
+}
+
+.mapa iframe{
+    width: 100%;
+    height: 440px;
+    border-radius: 8px;
+}
+
+.contacto-formulario h2{
+   text-align: center;
+}
+
+/* --------------------Mapa ------------------*/
+
+
+.mapa-body>*{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+}
+.mapa-body ul{
+    list-style: none;
+}
+.caja-mapa{
+    width: 80%;
+    padding: 20px 0 0 5px;
+    background-color: #E8C29B;
+    border:1px solid #262223;
+    border-radius: 10px 0 10px 0px;
+}
+
+.caja-mapa h3{
+    text-align: center;
+}
+.mapa-body button{
+    list-style: none;
+    width: 130px;
+    margin: 20px;
+    
+}
+
+
+
+
+/* ------------------Footer------------------*/
+footer{
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    background-color: #232323;
+    padding-top: 10px;
+  
+}
+
+ .footer{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    background-color: #232323;
+    padding-top: 10px;
+    margin-top: 60px;
+}
+
+ .footer-text{
+    padding: 10px;
+    max-width: 420px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+ .footer-text img:hover{
+    background-color: #BC8D6D;
+}
+
+
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+
+    .producto{
+        height: 620px;
+    }
+
+    header .header-opt img{
+        display: block;
+        margin-right: 20px;
+    }
+
+    header .header-opt  b{
+        display: none;
+    }
+    
+    footer .footer-text{
+       padding: 10px;
+        text-align: center;
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .register-formulario{
+        width: 90%;
+    }
+
+    .anuncio h3{
+        margin-top: -5px;
+        font-size: 22px;
+    }
+    
+    .tienda-promo{
+        
+        grid-template:repeat(6,1fr)/1fr;
+        margin: 10px 0 10px 0;
+    
+    }
+
+    .contacto-formulario{
+        grid-template:repeat(2,1fr)/1fr;
+        margin: 0 5% 0 5%;
+    }
+
+    .caja-mapa{
+        width: 80%;
+        padding: 10px 0 0 5px;
+        border-radius: 10px 0 10px 0px;
+    }
+    .mapa-body button{
+        list-style: none;
+        width: 120px;
+        margin: 10px;
+        font-size: 14px;
+    }
+    
+    
+    
+}
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .anuncio h3{
+        margin-top: -5px;
+        font-size: 22px;
+    }
+    .tienda-promo{
+        grid-template:repeat(1,1fr 1fr)/1fr 1fr;
+        margin: 10px;
+
+    }
+    .producto{
+        width: 90%;
+        height: 640px;
+    }
+    .producto input{
+        width: 38%;
+        height: 30px;
+        margin-left: 20px;
+    }
+
+    .contacto-formulario{
+        grid-template:repeat(2,1fr)/1fr;
+        margin: 0 5% 0 5%;
+    }
+
+    .mapa-body button{
+        list-style: none;
+        width: 120px;
+        margin: 10px;
+        font-size: 14px;
+    }
+    
+}
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .producto{
+        width: 90%;;
+    }
+    .anuncio h3{
+        margin-top: -5px;
+        font-size: 24px;
+    }
+    .tienda-promo{
+        grid-template:repeat(1, 1fr 1fr)/1fr 1fr;
+        margin: 10px;
+    }
+
+    .producto input{
+        width: 160px;
+        height: 30px;
+        margin-left: 20px;
+    }
+}
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .anuncio h3{
+        margin-top: -5px;
+        font-size: 26px;
+    }
+    .tienda-promo{
+        grid-template:repeat(1fr 1fr 1fr)/1fr 1fr 1fr;
+        margin: 10px 0 10px 0;
+    }
+}
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+    .tienda-promo{
+        grid-template-columns: 340px 340px 340px;
+        margin: 10px 10% 10px 12%;
+    
+    }
+}
